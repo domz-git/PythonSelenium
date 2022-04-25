@@ -10,6 +10,7 @@ PATH = "C:\SeleniumDrivers\chromedriver.exe"
 
 driver = webdriver.Chrome(PATH)
 driver.get("https://www.w3schools.com")
+
 search = driver.find_element_by_id("search2")
 search.send_keys("html")
 search.send_keys(Keys.RETURN)
